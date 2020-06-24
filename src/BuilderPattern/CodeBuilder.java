@@ -1,11 +1,11 @@
+package BuilderPattern;
+
 import java.util.ArrayList;
 
 public class CodeBuilder {
 
     private final String className;
-
     ArrayList<Field> fields = new ArrayList<>();
-    String newLine = System.lineSeparator();
 
     public CodeBuilder(String className){
         this.className = className;
@@ -18,6 +18,7 @@ public class CodeBuilder {
 
     @Override
     public String toString() {
+        String newLine = System.lineSeparator();
         StringBuilder sb = new StringBuilder("public class ");
 
         sb
