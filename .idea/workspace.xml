@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/BridgePattern/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="561">
+              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding>
                 <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#225#226#0" expanded="true" />
@@ -53,6 +53,37 @@
                 <element signature="e#834#835#0" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
                 <element signature="e#353#354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/CompositePattern/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/CompositePattern/SingleValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,6 +137,8 @@
         <option value="$PROJECT_DIR$/src/StructuralPatterns/BridgePattern/Shapes.java" />
         <option value="$PROJECT_DIR$/src/StructuralPatterns/BridgePattern/Demo.java" />
         <option value="$PROJECT_DIR$/src/StructuralPatterns/BridgePattern/Shape.java" />
+        <option value="$PROJECT_DIR$/src/StructuralPatterns/CompositePattern/Demo.java" />
+        <option value="$PROJECT_DIR$/src/StructuralPatterns/CompositePattern/SingleValue.java" />
       </list>
     </option>
   </component>
@@ -154,7 +187,7 @@
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="StructuralPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="BridgePattern" type="462c0819:PsiDirectoryNode" />
+              <item name="CompositePattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593460597269" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593521841856" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunDashboard">
@@ -178,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo (2)">
+  <component name="RunManager" selected="Application.Demo (3)">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.AdapterPattern.Demo" />
       <module name="design-patterns" />
@@ -198,6 +231,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StructuralPatterns.BridgePattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.CompositePattern.Demo" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StructuralPatterns.CompositePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,6 +299,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo (3)" />
         <item itemvalue="Application.Demo (2)" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo (1)" />
@@ -286,12 +333,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32822758" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32822758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21225382" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21225382" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -408,8 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/BridgePattern/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="561">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding>
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
@@ -427,6 +474,33 @@
             <element signature="e#834#835#0" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
             <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/CompositePattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StructuralPatterns/CompositePattern/SingleValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
           </folding>
         </state>
       </provider>
